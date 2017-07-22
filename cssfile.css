@@ -1,0 +1,122 @@
+
+div.top-bar
+{
+position:relative;
+}
+div.center{
+position:absolute;
+color:black;
+font-size:30px;
+left:0;
+top:62%;
+width:100%;
+text-align:center;
+font-family:Courier;
+}
+li{
+float:left;
+}
+li a:hover
+{
+background-color:chartreuse;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+li a
+{
+display:block;
+color:white;
+font-family:Courier;
+font-size:200%;
+text-decoration: none;
+text-align:center;
+padding:16px;
+}
+div.written
+{
+position:relative;
+text-align:center;
+vertical-align:middle;
+
+
+color:white;
+}
+div.slideshow
+{
+position:relative;
+clear: left;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  }
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+div.contact
+{
+text-align:center;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+div.bottom
+{
+background: color url('images/basebg.jpg') others;
+border-style:solid;
+border-color:red;
+border-width:10px;
+background-repeat:repeat-x;
+}
